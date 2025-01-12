@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build and production
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# Editor-specific files
+.DS_Store
+*.swp
+
+# Coverage reports
+coverage/
