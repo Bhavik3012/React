@@ -12,9 +12,11 @@ function App() {
     if (counter >= 20) {
       setCounter(" Your counter goes out of range");
     } else {
-      setCounter(counter + 1);
+      setCounter((prevCounter) => prevCounter + 1); // prevCounter is just a variable
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
     }
-    console.log(counter);
   };
 
   const removevalue = () => {
