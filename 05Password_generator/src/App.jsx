@@ -51,8 +51,13 @@ function App() {
             ref={passwordRef}
           />
           <button
-            className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0"
-            onClick={copyPasswordToClipboard}
+            id="copy"
+            className="outline-none bg-blue-500 text-white px-3 py-0.5 shrink-0"
+            onClick={() => {
+              copyPasswordToClipboard();
+              const changecolor = document.getElementById("copy");
+              changecolor.style.backgroundColor = "#00008B";
+            }}
           >
             Copy
           </button>
