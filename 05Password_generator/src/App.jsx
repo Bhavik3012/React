@@ -99,6 +99,16 @@ function App() {
             <label>Character</label>
           </div>
         </div>
+        <div className="m-1 text-center text-slate-500 pt-2">
+          <button
+            id="regenerate"
+            onClick={() => {
+              passwordGenerator();
+            }}
+          >
+            Generate Password
+          </button>
+        </div>
       </div>
     </>
   );
