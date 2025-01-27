@@ -28,7 +28,9 @@ function App() {
         backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
       }}
     >
-      <div className="w-full">
+      <div className="bg-blue-600 w-[30%] rounded-lg shadow-lg"></div>
+
+      <div className="w-[40%]">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
@@ -61,7 +63,7 @@ function App() {
                 amount={convertedAmount}
                 currencyOptions={options}
                 onCurrencyChange={(currency) => setTo(currency)}
-                selectCurrency={from}
+                selectCurrency={to}
                 amountDisabled
               />
             </div>
@@ -74,6 +76,7 @@ function App() {
           </form>
         </div>
       </div>
+      <div className="bg-blue-600 w-[30%]"></div>
     </div>
   );
 }
