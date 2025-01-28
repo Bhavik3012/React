@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { InputBox } from "./components";
 import usecurrencyinfo from "./hooks/usecurrencyinfo";
+import dollar from "./dollar.png";
+import rupee from "./rupee.png";
 
 function App() {
   const [amount, setAmount] = useState(0);
@@ -28,9 +30,17 @@ function App() {
         backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
       }}
     >
-      <div className="bg-blue-600 w-[30%] rounded-lg shadow-lg"></div>
+      <div
+        className="backdrop-blur-sm w-[28%] m-2 h-full rounded-lg shadow-lg "
+        style={{
+          backgroundImage: `url(${dollar})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      ></div>
 
-      <div className="w-[40%]">
+      <div className="w-[38%] m-[1%]">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
@@ -76,7 +86,15 @@ function App() {
           </form>
         </div>
       </div>
-      <div className="bg-blue-600 w-[30%]"></div>
+      <div
+        className="backdrop-blur-sm w-[28%] m-2 h-full rounded-lg shadow-lg"
+        style={{
+          backgroundImage: `url(${rupee})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+        }}
+      ></div>
     </div>
   );
 }
