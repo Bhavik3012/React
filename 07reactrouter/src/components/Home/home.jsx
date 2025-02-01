@@ -9,7 +9,7 @@ export default function Home() {
           <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
               Download Now
-              <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+              <span className="hidden sm:block text-4xl">SBJ_OP</span>
             </h2>
 
             <Link
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
             className="w-96"
-            src="https://i.ibb.co/5BCcDYB/Remote2.png"
+            src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?semt=ais_hybrid"
             alt="image1"
           />
         </div>
@@ -43,13 +43,13 @@ export default function Home() {
       <div className="grid  place-items-center sm:mt-20">
         <img
           className="sm:w-96 w-48"
-          src="https://i.ibb.co/2M7rtLk/Remote1.png"
+          src="https://img.freepik.com/free-vector/business-team-illustration_1284-14306.jpg?semt=ais_hybrid"
           alt="image2"
         />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
-        Lorem Ipsum Yojo
+        Let's Create Something Big
       </h1>
     </div>
   );

@@ -9,11 +9,20 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./layout.jsx";
-import About from "./components/About/About.jsx";
-import Home from "./components/Home/home.jsx";
-import Contact from "./components/Contact/Contact.jsx";
-import User from "./components/User/User.jsx";
-import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
+// import About from "./components/About/About.jsx";
+// import Home from "./components/Home/Home.jsx";
+// import Contact from "./components/Contact/Contact.jsx";
+// import User from "./components/User/User.jsx";
+// import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
+
+import {
+  About,
+  Home,
+  Contact,
+  User,
+  Github,
+  githubInfoLoader,
+} from "./components";
 
 // const router = createBrowserRouter([
 //   {
