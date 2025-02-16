@@ -78,9 +78,9 @@ function Signup() {
                 required: true,
               })}
             />
-            <Button type="submit" className="w-full">
+            <button type="submit" className="w-full">
               Create Account
-            </Button>
+            </button>
           </div>
         </form>
       </div>
